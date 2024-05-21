@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"> </script>
+    <!---Font puxada google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/homepag.css">
+
+
+
+    <title>HomePage - TecSidel</title>
+
+
+
+</head>
+
+<body>
+
+    <!---Menu Superior-->
+    <nav class="navbar navbar-expand-lg navb-size ">
+        <div class="container ">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/Logo-Tecsidel.png" alt="logo-tecsidel" width="162" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item espaco-text-navbar ">
+                        <a class="nav-link text-color-navb" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item espaco-text-navbar">
+                        <a class="nav-link text-color-navb" href="../html/telaAviso.html">Dashboard</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a class="btn btn-danger" href="../html/login.html"> Sair </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!---Menu Superior-->
+
+
+    <section class="backgorund">
+        <section class="background-conteudo container">
+
+            <h1 class="text-h1">Olá, bem vindo.</h1>
+            <!--Cards de Acesso rapido-->
+            <section class="cards-noticias">
+                <div class="card shadow" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Trafego de Veiculos</h5>
+                        <p class="card-num">1000</p>
+                        <p class="card-text">Visualize o status de todas as cameras instalados pela rodovia. </p>
+                        <a href="../html/trafVeiculos.html" class="btn btn-primary">Visualizar</a>
+                    </div>
+
+                </div>
+                <div class="card shadow" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chamados</h5>
+                        <p class="card-num">1000</p>
+                        <p class="card-text">Visualize o status de todas as antenas instalados pela rodovia.</p>
+                        <a href="../html/telaAviso.html" class="btn btn-primary">Visualizar</a>
+                    </div>
+
+                </div>
+                <div class="card shadow" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Faturamento e Chamados </h5>
+                        <p class="card-num">1000</p>
+                        <p class="card-text">Visualize o numero de veiculos e identifique os principais tipo.</p>
+                        <a href="../html/telaAviso.html" class="btn btn-primary">Visualizar</a>
+                    </div>
+
+                </div>
+            </section>
+            <!--Cards de Acesso rapido-->
+
+
+            <div class="table-style">
+                <section class="formt-table container">
+                    <h2 class="text-h3 text-title">Equipamentos</h2>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Todos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cameras </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sensores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Antenas</a>
+                        </li>
+                    </ul>
+
+
+                    <table class="table table-striped align-middle ">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="text-table " scope="col">Registro </th>
+                                <th class="text-table " scope="col">Ao vivo</th>
+                                <th class="text-table " scope="col">Tipo</th>
+                                <th class="text-table " scope="col">Local</th>
+                                <th class="text-table " scope="col">Status</th>
+                                <th class="text-table " scope="col">Num Trafego - 24hr</th>
+                                <th class="text-table " scope="col">Prev Manutenção</th>
+                                <th class="text-table " scope="col">Emergencia</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td class="text-table "> <button type="button" class="btn btn-info text-btn"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Assistir </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ao vivo</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <video width="100%" height="240" controls>
+                                                        <source src="../assets/imagens_cameras_prototipo.mp4"
+                                                            type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Final modal-->
+                                    </div>
+                                </td>
+                                <td class="text-table "> Camera 01 </td>
+                                <td class="text-table "> Pedagio 01</td>
+                                <td class="text-table "> Ativa</td>
+                                <td class="text-table "> 2000</td>
+                                <td class="text-table "> 99/99/9999</td>
+                                <td class="text-table "><a class="btn btn-warning" href="">Abrir Chamado</a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td class="text-table text-btn"> </td>
+                                <td class="text-table ">Sensor 01</td>
+                                <td class="text-table ">Pedagio 02</td>
+                                <td class="text-table ">Ativa</td>
+                                <td class="text-table ">5000</td>
+                                <td class="text-table ">99/99/9999</td>
+                                <td class="text-table "> <a class="btn btn-warning" href=""> Abrir Chamado</a> </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td class="text-table"><button type="button" class="btn btn-info text-btn"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Assistir </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ao vivo</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Final modal-->
+                                    </div>
+                                </td>
+                                <td class="text-table">Camera 03</td>
+                                <td class="text-table">Pedagio 03</td>
+                                <td class="text-table">Ativa</td>
+                                <td class="text-table">5000</td>
+                                <td class="text-table">99/99/9999</td>
+                                <td><a class="btn btn-warning" href=""> Abrir Chamado</a></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td class="text-table"><button type="button" class="btn btn-info text-btn"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Assistir </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ao vivo</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Final modal-->
+                                    </div>
+                                </td>
+                                <td class="text-table">Camera 04</td>
+                                <td class="text-table">Pedagio 04</td>
+                                <td class="text-table">Ativa</td>
+                                <td class="text-table">5000</td>
+                                <td class="text-table">99/99/9999</td>
+                                <td class="text-table"><a class="btn btn-warning" href="">Abrir Chamado</a></td>
+
+                            </tr>
+                            <tr>
+
+                                <th scope="row">5</th>
+                                <td class="text-table"> </td>
+                                <td class="text-table">Sensor 05</td>
+                                <td class="text-table">Pedagio 05</td>
+                                <td class="text-table">Ativa</td>
+                                <td class="text-table">5000</td>
+                                <td class="text-table">99/99/9999</td>
+                                <td class="text-table"><a class="btn btn-warning" href="">Abrir Chamado</a></td>
+
+                            </tr>
+                            <tr>
+
+                                <th scope="row">6</th>
+                                <td class="text-table"> </td>
+                                <td class="text-table">Antenas</td>
+                                <td class="text-table">Pedagio 06</td>
+                                <td class="text-table">Ativa</td>
+                                <td class="text-table">5000</td>
+                                <td class="text-table">99/99/9999</td>
+                                <td class="text-table"><a class="btn btn-warning" href="">Abrir Chamado</a></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>

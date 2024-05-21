@@ -1,0 +1,30 @@
+::placeholder{
+    font-size: 1rem;
+    color: #8C8C8C;
+    font-family: 'Rubik';
+}
+
+.styleInput{
+    border-color: #6e6e6e;
+    border-style: solid;
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    border-width: 0.15rem;
+}
+
+.styleInput:focus{
+    border-color: #00629B;
+    border-width: 0.15rem;
+    outline: none;
+    box-shadow: 5px 5px 10px #B2CFE1;
+}
+
+.titleLabel{
+    font-size: 1.2rem;
+    font-family: 'Rubik';
+    color: black;
+    font-weight: 500;
+}
+
+
+

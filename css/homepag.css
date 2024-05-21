@@ -1,0 +1,119 @@
+.navb-size {
+    background-color: white;
+    padding: 1rem 0rem;
+}
+
+
+.espaco-text-navbar {
+    margin: 0rem 1rem;
+    font-size: 1.2rem;
+}
+
+.text-color-navb {
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.cards-noticias {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 1rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    gap: 1rem;
+}
+
+.card-img {
+    height: 190px;
+}
+
+.backgorund {
+    background-color: #E2E2E2;
+    padding: 2rem 0rem;
+}
+
+.background-conteudo {
+    background-color: white;
+    width: 80%;
+    padding: 4rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+}
+
+.text-h1 {
+    font-size: 2rem;
+    font-family: 'Rubik';
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.text-h3 {
+    font-size: 1.5rem;
+    font-family: 'Rubik';
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.text-table {
+    font-size: 1rem;
+    font-family: 'Rubik';
+
+}
+
+
+.table-style {
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: #E2E2E2;
+    border-width: 0.1rem;
+    background-color: white;
+    padding: 2rem 2rem;
+}
+
+.card-num {
+    font-size: 2.5rem;
+    font-family: 'Rubik';
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+
+.card-title {
+    margin-bottom: 0rem;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    font-family: 'Rubik';
+}
+
+.table-alinhamento {
+    vertical-align: middle;
+}
+
+.background-cabeçalho {
+    color: #00629B;
+}
+
+.btn-info {
+    background-color: transparent;
+    border-color: #029799;
+
+
+}
+
+.btn-info:hover {
+    background-color: #029799;
+    border-color: transparent;
+}
+
+.text-btn:hover {
+    color: white;
+}
+
+.size-chart {
+    width: 80%;
+    margin-bottom: 5rem;
+}

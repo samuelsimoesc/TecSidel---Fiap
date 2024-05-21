@@ -1,0 +1,136 @@
+.entradas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.logo {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoTecSidel {
+    width: 50%;
+    margin-right: 5rem;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.ladoForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ladoImagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagemBackground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.text {
+    font-size: 1.5rem;
+    font-family: 'Rubik';
+    color: black;
+    margin-bottom: 2rem;
+
+}
+
+.recSenha {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.textLink {
+    text-decoration: none;
+    font-family: 'Rubik';
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.textLink:hover {
+    color: #1971A5;
+
+}
+
+.textBotoes {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-size: 1rem;
+}
+
+.textEntrar {
+    color: white;
+}
+
+.textEntrar:hover {
+    color: white;
+}
+
+.botEntrar {
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    background-color: #00629B;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+}
+
+.botEntrar:hover {
+    background-color: #00588B;
+}
+
+.botAcesso {
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border-color: #00629B;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+
+.botAcesso:hover {
+    background-color: #B2CFE1;
+}
+
+.textAcesso {
+    color: #00629B;
+}
+
+.textAcesso:hover {
+    color: #00629B;
+}
+
+.ladoForm {
+    background-color: #E2E2E2;
+    
+}
+
+.backgroundForms {
+    background-color: white;
+    width: 50%;
+    padding: 4rem 3rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+}

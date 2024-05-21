@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Font puxada google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!---Arquivos Css-->
+    <link rel="stylesheet" href="..\css\inputs.css">
+    <link rel="stylesheet" href="..\css\style.css">
+    <link rel="stylesheet" href="..\css\solAcess.css">
+
+    <title>Solicitação de Acesso</title>
+</head>
+
+<body>
+
+    <Section class="background">
+        <div class="ladoForm">
+            <dir class="backgroundForms">
+                <div class="logo">
+                    <img class="logoTecSidel" src="../assets/Logo-Tecsidel.png" alt="Logo TecSidel">
+                    <a class="botVoltar textBotoes textAcesso" href="login.html"> Voltar</a>
+                </div>
+
+                <h3 class="text">Solicitação de Acesso</h3>
+                <form action="/submit-access-request" method="post">
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="cpf">CPF:</label>
+                        <input class="styleInput" type="text" id="cpf" name="cpf">
+                    </div>
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="nome">Nome Completo:</label>
+                        <input class="styleInput" type="text" id="nome" name="nome">
+                    </div>
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="nome">E-mail:</label>
+                        <input class="styleInput" type="email" id="nome" name="nome">
+                    </div>
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="cidade">Cidade:</label>
+                        <input class="styleInput" type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="estado">Estado:</label>
+                        <select class="styleInput" id="trabalho" name="trabalho">
+                            <option value="" disabled selected>Selecione seu estado</option>
+                            <option value="pedagio_A">Estado 01</option>
+                            <option value="pedagio_B">Estado 02</option>
+                            <option value="pedagio_C">Estado 03</option>
+                            <option value="pedagio_D">Estado 04</option>
+                        </select>
+                    </div>
+                    <div class="formsGrupo">
+                        <label class="titleLabel" for="trabalho">Local de Trabalho:</label>
+                        <select class="styleInput" id="trabalho" name="trabalho">
+                            <option value="" disabled selected>Selecione onde trabalha</option>
+                            <option value="pedagio_A">Pedagio 1</option>
+                            <option value="pedagio_B">Pedagio 2</option>
+                            <option value="pedagio_C">Pedagio 3</option>
+                            <option value="pedagio_D">Pedagio D</option>
+                        </select>
+                    </div>
+                    <div class="botEntrar">
+                        <a class="textBotoes textEntrar " type="submit">Finalizar solicitação</a>
+                    </div>
+                    <div class="botCancelar" for="cancelar">
+                        <a class="textBotoes textCancelar" name="cancelar" href="login.html">Cancelar</a>
+                    </div>
+
+                </form>
+            </dir>
+        </div>
+
+
+        <div class="ladoImagem">
+            <img class="imagemBackground" src="..\assets\busy-crowded-traffic-jam-road.jpg"
+                alt="Imagem de varios de carros em um estrada">
+        </div>
+
+    </Section>
+
+</body>
+
+</html>
